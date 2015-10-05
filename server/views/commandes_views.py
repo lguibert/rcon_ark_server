@@ -1,11 +1,8 @@
 from general_views import send_response
 import srcds as rcon
 
-path = "C:/projects/RCON/mcrcon.exe"
-server = "tpdo.fr"
-port = 32330
-password = "tpdopwd"
-con = rcon.SourceRcon(server, port, password, 15)
+
+#con = rcon.SourceRcon(server, port, password, 15)
 
 
 def execute_command(request, cmd, params=None):
