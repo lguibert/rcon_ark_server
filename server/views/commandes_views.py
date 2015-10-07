@@ -1,14 +1,10 @@
 from general_views import send_response
 import srcds as rcon
-import urllib
 from django.views.decorators.csrf import csrf_exempt
 import json
+from django.conf import settings
 
-path = "C:/projects/RCON/mcrcon.exe"
-server = "tpdo.fr"
-port = 32330
-password = "tpdopwd"
-con = rcon.SourceRcon(server, port, password, 15)
+con = rcon.SourceRcon(settings.SERVER, settings.PORT, settings.PASSWORD, 15)
 
 @csrf_exempt
 def execute_command(request):
