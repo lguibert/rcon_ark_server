@@ -16,6 +16,5 @@ Including another URLconf
 from django.conf.urls import url, patterns
 
 urlpatterns = patterns('server.views',
-                       #url(r'commande/new/', 'send_commande'),
-                       url(r'command/(?P<cmd>[a-zA-Z0-9]{1,})/(?P<params>[a-zA-Z0-9,:]{1,})?/?', 'execute_command'),
+                       url(r'command/', 'execute_command'),
                        )
