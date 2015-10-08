@@ -3,10 +3,12 @@ import srcds as rcon
 from django.views.decorators.csrf import csrf_exempt
 import json
 from django.conf import settings
+from timeout import timeout
 
 con = rcon.SourceRcon(settings.SERVER, settings.PORT, settings.PASSWORD, 15)
 
 @csrf_exempt
+@timeout(10)
 def execute_command(request):
     if request.method == "POST":
         data = json.loads(request.body)
