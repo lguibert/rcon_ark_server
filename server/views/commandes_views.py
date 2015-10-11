@@ -22,10 +22,9 @@ def execute_command(request):
         else:
             result = create_command(cmd)
 
-        print result
         return send_response(result)
     else:
-        return send_response("nop")
+        return send_response("", 500)
 
 
 def create_command(attr, param=None):
