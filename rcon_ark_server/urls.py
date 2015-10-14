@@ -17,5 +17,6 @@ from django.conf.urls import url, patterns
 
 urlpatterns = patterns('server.views',
                        url(r'command/', 'execute_command'),
-                       url(r"login/", 'login')
+                       url(r"login/", 'login'),
+                       url(r"backgrounds/","backgrounds")
                        )
