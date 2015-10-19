@@ -1,4 +1,4 @@
 rcon_ark_server/settings.py
-.idea
+.idea/
 *.iml
 *.pyc
