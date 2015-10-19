@@ -10,8 +10,7 @@ def execute_script(request):
     #if request.method == "POST":
     data = json.loads(request.body)
     test = "http://" + settings.SERVER + ":" + str(settings.PORT_SCRIPT) + "/" + data
-    print test
     #r = requests.get("http://" + settings.SERVER + ":" + str(settings.PORT_SCRIPT) + "/" + data[0])
-    return send_response(data) #r.text
+    return send_response(test) #r.text
     #else:
     #    return send_response("")
