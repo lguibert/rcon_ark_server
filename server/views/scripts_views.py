@@ -9,7 +9,7 @@ import requests
 def execute_script(request):
     if request.method == "POST":
         data = json.loads(request.body)
-        r = requests.get(settings.SERVER + ":" + str(settings.PORT_SCRIPT) + "/" + data[0])
+        r = requests.get("http://" + settings.SERVER + ":" + str(settings.PORT_SCRIPT) + "/" + data[0])
         return send_response(r.text)
     else:
         return send_response("")
