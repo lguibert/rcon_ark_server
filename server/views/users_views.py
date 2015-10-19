@@ -2,7 +2,6 @@ from general_views import send_response
 from django.views.decorators.csrf import csrf_exempt
 import json
 from django.contrib.auth import authenticate
-from django.contrib.auth.models import User
 
 
 @csrf_exempt
