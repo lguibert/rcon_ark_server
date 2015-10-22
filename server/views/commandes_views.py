@@ -3,6 +3,7 @@ import srcds as rcon
 from django.views.decorators.csrf import csrf_exempt
 import json
 from django.conf import settings
+import re
 
 con = rcon.SourceRcon(settings.SERVER, settings.PORT, settings.PASSWORD, 15)
 
@@ -23,15 +24,39 @@ def execute_command(request):
         else:
             result = create_command(cmd)
 
-        return send_response(result)
+        parsed_result = parse_with(result, cmd.lower())
+
+        return send_response([cmd, parsed_result])
     else:
         return send_response("", 500)
 
 
-def create_command(attr, param=None):
+def create_command(cmd, param=None):
     if param:
-        result = con.rcon(attr + " " + param)
+        result = con.rcon(cmd + " " + param)
     else:
-        result = con.rcon(attr)
+        result = con.rcon(cmd)
 
     return result
+
+
+def parse_with(result, cmd):
+    resulted = None
+    print cmd
+    if cmd == "listplayers":
+        resulted = parse_listplayer(result)
+
+    return resulted
+
+
+def parse_listplayer(result):
+    results = result.split("\n")
+    parsed = []
+    print results
+    for player in results:
+        if player is not "":
+            playered = re.search("(?P<uid>\d*)\. (?P<playername>.+), (?P<steamid>[0-9]+) ?", player)
+            if playered:
+                parsed.append(playered.groupdict())
+
+    return parsed
