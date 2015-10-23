@@ -42,7 +42,6 @@ def create_command(cmd, param=None):
 
 def parse_with(result, cmd):
     resulted = None
-    print cmd
     if cmd == "listplayers":
         resulted = parse_listplayer(result)
 
@@ -59,4 +58,7 @@ def parse_listplayer(result):
             if playered:
                 parsed.append(playered.groupdict())
 
-    return parsed
+    if parsed:
+        return parsed
+    else:
+        return "No player connected"
