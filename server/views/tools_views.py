@@ -9,6 +9,4 @@ def backgrounds(request):
         background = files
         break
 
-    print background
-
     return send_response(background)

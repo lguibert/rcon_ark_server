@@ -8,8 +8,11 @@ import requests
 @csrf_exempt
 def execute_script(request):
     if request.method == "POST":
-        data = json.loads(request.body)
-        r = requests.get("http://" + settings.SERVER + ":" + str(settings.PORT_SCRIPT) + "/" + data[0])
-        return send_response(r.text)
+        try:
+            data = json.loads(request.body)
+            r = requests.get("http://" + settings.SERVER + ":" + str(settings.PORT_SCRIPT) + "/" + data[0])
+            return send_response(r.text)
+        except requests.exceptions.ConnectionError:
+            return send_response("Erreur de connexion avec le server des scripts.", 500)
     else:
-        return send_response("")
+        return send_response(None)
