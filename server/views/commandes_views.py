@@ -15,6 +15,7 @@ def execute_command(request):
         data = json.loads(request.body)
         cmd = data[0]
         params = data[1]
+
         try:
             if params is not None:
                 params = params.split(",")
