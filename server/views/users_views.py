@@ -13,8 +13,10 @@ def login(request):
             if user.is_superuser:
                 return send_response([user.id, user.id, "admin"])
             else:
-                return send_response("Pas d'utilisateur 1.", 500)
+                return send_response("Pas d'utilisateur", 500)
         else:
-            return send_response("Pas d'utilisateur 2.", 500)
+            return send_response("Pas d'utilisateur", 500)
     else:
-        return send_response("Pas d'utilisateur 3.", 500)
+        return send_response("Pas d'utilisateur", 500)
+
+
