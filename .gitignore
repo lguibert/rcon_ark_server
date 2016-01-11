@@ -1,4 +1,5 @@
 rcon_ark_server/settings.py
+rcon_ark_server/wsgi.py
 .idea/
 *.iml
 *.pyc

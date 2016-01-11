@@ -16,8 +16,8 @@ def backgrounds(request):
 
 
 def get_items(request):
-    #url = "http://www.ark-survival.net/fr/liste-des-ids-liste-des-items/"
-    url = "http://ark.gamepedia.com/Entity_IDs"
+    # url = "http://www.ark-survival.net/fr/liste-des-ids-liste-des-items/"
+    '''url = "http://ark.gamepedia.com/Entity_IDs"
     rqt = urllib2.Request(url, headers={'User-Agent': "Magic Browser"})
     page = urllib2.urlopen(rqt).read()
     soup = BeautifulSoup(page, "html.parser")
@@ -42,9 +42,11 @@ def get_items(request):
 
         data.append(tab)
 
-    jsoned = list_to_json(data)
+    jsoned = list_to_json(data)'''
 
-    return send_response(jsoned)
+    file = open("items.json", "r")
+
+    return send_response(json.load(file))
 
 
 def list_to_json(data):

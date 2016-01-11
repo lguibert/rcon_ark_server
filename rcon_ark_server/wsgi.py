@@ -10,7 +10,8 @@ https://docs.djangoproject.com/en/1.8/howto/deployment/wsgi/
 import os
 import sys
 
-sys.path.append('/var/python-www/rcon_ark_server')
+#sys.path.append('/var/python-www/rcon_ark_server')
+sys.path.append('E:/wamp/www/rcon_ark_server')
 
 from django.core.wsgi import get_wsgi_application
 
