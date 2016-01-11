@@ -14,19 +14,25 @@ def login(request):
         if test_connexion(setting['server'], setting['port'], setting['password']):
             return send_response(True)
         else:
-            return send_response("Error", 500)
+            return send_response("Error", 521)
 
 
 def test_connexion(server, port, password):
-    print server
-    print int(port)
-    print password
+    try:
+        con = SourceRcon(server, int(port), password)
+        con.connect()
+        con.disconnect()
+        return True
+    except:
+        return False
 
-    svadd = ('tpdo.fr', 32332)
 
-    with RCON(svadd, "arkfree33") as rcon:
-        print(rcon('fly'))
-    #try:
-    return True
-    #except SourceRconError:
-    #    return False
+''' svadd = ('tpdo.fr', 32332)
+
+ with RCON(svadd, "arkfree33") as rcon:
+     print(rcon('fly'))'''
+
+# try:
+# return True
+# except SourceRconError:
+#    return False
