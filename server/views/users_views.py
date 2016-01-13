@@ -4,35 +4,29 @@ import json
 from srcds import SourceRconError
 from srcds import SourceRcon
 from valve.source.rcon import RCON
+from django.contrib.auth import authenticate
+from django.contrib.auth.models import User
 
 
 @csrf_exempt
 def login(request):
     if request.method == "POST":
-        setting = json.loads(request.body)
-
-        if test_connexion(setting['server'], setting['port'], setting['password']):
-            return send_response(True)
+        data = json.loads(request.body)
+        user = authenticate(username=data['username'], password=data['password'])
+        if user is not None:
+            return send_response([user.id, user.id, "admin"])
         else:
-            return send_response("Error", 521)
+            return send_response("NO_USER", 500)
 
 
-def test_connexion(server, port, password):
-    try:
-        con = SourceRcon(server, int(port), password)
-        con.connect()
-        con.disconnect()
-        return True
-    except:
-        return False
 
 
-''' svadd = ('tpdo.fr', 32332)
+'''
+if request.method == "POST":
+    setting = json.loads(request.body)
 
- with RCON(svadd, "arkfree33") as rcon:
-     print(rcon('fly'))'''
-
-# try:
-# return True
-# except SourceRconError:
-#    return False
+    if test_connexion(setting['server'], setting['port'], setting['password']):
+        return send_response(True)
+    else:
+        return send_response("Error", 521)
+'''

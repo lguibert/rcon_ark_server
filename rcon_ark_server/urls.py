@@ -20,7 +20,7 @@ urlpatterns = patterns('server.views',
                        url(r"login/", 'login'),
                        url(r"backgrounds/","backgrounds"),
 
-                       url(r"script/", "execute_script"),
+                       url(r"myservers/", "get_myservers"),
 
                        url(r"items/", "get_items")
                        )
