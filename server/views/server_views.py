@@ -12,31 +12,51 @@ def get_myservers(request):
     if request.method == "POST":
         #data = json.loads(request.body)
 
-        user = User.objects.get(username='Lucas')
-
-        myservers = Servers.objects.filter(user=user).values()
+        myservers = get_servers_from_username("Lucas")
 
         return send_response(list(myservers))
 
 
-def test_connexion(server, port, password):
-    return True
-    '''try:
-        con = SourceRcon(server, int(port), password)
-        con.connect()
-        con.disconnect()
-        return True
-    except:
-        return False'''
+def get_servers_from_username(username, values=None):
+    user = User.objects.get(username=username)
+    if not values:
+        return Servers.objects.filter(user=user).values()
+    else:
+        return Servers.objects.filter(user=user).values(values)
 
 
-''' svadd = ('tpdo.fr', 32332)
+@csrf_exempt
+def change_myservers(request):
+    if request.method == "POST":
+        data = json.loads(request.body)
+        server = data[0]
+        username = data[1]
 
- with RCON(svadd, "arkfree33") as rcon:
-     print(rcon('fly'))'''
+        if 'id' in server:
+            #update
 
-# try:
-# return True
-# except SourceRconError:
-#    return False
+            servers = get_servers_from_username(username, 'id')
+            servers_ids = []
+            for serv in servers:
+                servers_ids.append(serv['id'])
 
+            if server['id'] in servers_ids:
+                update = Servers.objects.get(id=server['id'])
+                update.name = server['name']
+                update.address = server['address']
+                update.port = server['port']
+                update.password = server['password']
+                update.save()
+
+                return send_response("Update ok")
+        else:
+            #add
+            new = Servers()
+            new.name = server['name']
+            new.address = server['address']
+            new.port = server['port']
+            new.password = server['password']
+            new.user = User.objects.get(username=username)
+            new.save()
+
+            return send_response("Add ok")
