@@ -21,6 +21,7 @@ urlpatterns = patterns('server.views',
                        url(r"backgrounds/", "backgrounds"),
 
                        url(r"myservers/change/", "change_myservers"),
+                       url(r"myservers/connect/", "connect_to_server"),
                        url(r"myservers/", "get_myservers"),
 
                        url(r"items/", "get_items")

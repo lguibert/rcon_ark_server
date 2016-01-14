@@ -3,8 +3,8 @@ from django.views.decorators.csrf import csrf_exempt
 import json
 from server.models import Servers
 from django.contrib.auth.models import User
-from django.core import serializers
-from django.forms.models import model_to_dict
+from srcds import SourceRcon, SourceRconError
+import time
 
 
 @csrf_exempt
@@ -25,6 +25,13 @@ def get_servers_from_username(username, values=None):
         return Servers.objects.filter(user=user).values(values)
 
 
+def get_id_server(servers):
+    servers_ids = []
+    for serv in servers:
+        servers_ids.append(serv['id'])
+    return servers_ids
+
+
 @csrf_exempt
 def change_myservers(request):
     if request.method == "POST":
@@ -36,9 +43,7 @@ def change_myservers(request):
             #update
 
             servers = get_servers_from_username(username, 'id')
-            servers_ids = []
-            for serv in servers:
-                servers_ids.append(serv['id'])
+            servers_ids = get_id_server(servers)
 
             if server['id'] in servers_ids:
                 update = Servers.objects.get(id=server['id'])
@@ -60,3 +65,32 @@ def change_myservers(request):
             new.save()
 
             return send_response("Add ok")
+
+
+@csrf_exempt
+def connect_to_server(request):
+    if request.method == "POST":
+        data = json.load(request)
+        server = data[0]
+        username = data[1]
+
+        servers = get_servers_from_username(username, 'id')
+        servers_ids = get_id_server(servers)
+
+        if server['id'] in servers_ids:
+            if test_connection(server):
+                return send_response("CO_OK")
+            else:
+                return send_response("CO_NOP", 500)
+        else:
+            return send_response("NOT_ALLOWED", 500)
+
+
+def test_connection(server):
+    try:
+        con = SourceRcon(server['address'], int(server['port']), server['password'])
+        con.connect()
+        con.disconnect()
+        return True
+    except SourceRconError:
+        return False
