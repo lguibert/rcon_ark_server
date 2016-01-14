@@ -94,3 +94,23 @@ def test_connection(server):
         return True
     except SourceRconError:
         return False
+
+
+@csrf_exempt
+def delete_server(request):
+    if request.method == "POST":
+        data = json.load(request)
+        server = data[0]
+        username = data[1]
+
+        servers = get_servers_from_username(username, 'id')
+        servers_ids = get_id_server(servers)
+
+        if server['id'] in servers_ids:
+            try:
+                Servers.objects.get(id=server['id']).delete()
+                return send_response("DELETE_OK")
+            except:
+                return send_response("ERROR_DELETE", 500)
+        else:
+            return send_response("NOT_ALLOWED", 500)
