@@ -1,3 +1,5 @@
+# encoding=utf8
+
 from general_views import send_response
 import srcds as rcon
 from srcds import SourceRconError
