@@ -1,8 +1,7 @@
 from django.db import models
 from django.contrib.auth.models import User
-from uuidfield import UUIDField
 from json import JSONEncoder
-from uuid import UUID
+from uuid import UUID, uuid4
 
 JSONEncoder_olddefault = JSONEncoder.default
 def JSONEncoder_newdefault(self, o):
@@ -16,7 +15,7 @@ class Servers(models.Model):
     address = models.CharField(max_length=50)
     port = models.IntegerField()
     password = models.CharField(max_length=200)
-    uuid = UUIDField(auto=True)
+    uuid = models.UUIDField(default=uuid4)
 
     user = models.ForeignKey(User)
 
