@@ -21,6 +21,3 @@ class Servers(models.Model):
     user = models.ForeignKey(User)
 
     active = models.BooleanField(default=True)
-
-
-

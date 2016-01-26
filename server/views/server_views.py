@@ -7,18 +7,19 @@ from srcds import SourceRcon, SourceRconError
 import time
 
 
+
 @csrf_exempt
 def get_myservers(request):
     if request.method == "POST":
-        username = request.body
+        id = request.body
 
-        myservers = get_servers_from_username(username)
+        myservers = get_servers_from_id(id)
 
         return send_response(list(myservers))
 
 
-def get_servers_from_username(username, values=None):
-    user = User.objects.get(username=username)
+def get_servers_from_id(id, values=None):
+    user = User.objects.get(id=id)
     if not values:
         return Servers.objects.filter(user=user).values()
     else:
@@ -37,12 +38,12 @@ def change_myservers(request):
     if request.method == "POST":
         data = json.loads(request.body)
         server = data[0]
-        username = data[1]
+        id = data[1]
 
         if 'id' in server:
             #update
 
-            servers = get_servers_from_username(username, 'id')
+            servers = get_servers_from_id(id, 'id')
             servers_ids = get_id_server(servers)
 
             if server['id'] in servers_ids:
@@ -61,7 +62,7 @@ def change_myservers(request):
             new.address = server['address']
             new.port = server['port']
             new.password = server['password']
-            new.user = User.objects.get(username=username)
+            new.user = User.objects.get(id=id)
             new.save()
 
             return send_response("Add ok")
@@ -72,9 +73,9 @@ def connect_to_server(request):
     if request.method == "POST":
         data = json.load(request)
         server = data[0]
-        username = data[1]
+        id = data[1]
 
-        servers = get_servers_from_username(username, 'id')
+        servers = get_servers_from_id(id, 'id')
         servers_ids = get_id_server(servers)
 
         if server['id'] in servers_ids:
@@ -101,9 +102,9 @@ def delete_server(request):
     if request.method == "POST":
         data = json.load(request)
         server = data[0]
-        username = data[1]
+        id = data[1]
 
-        servers = get_servers_from_username(username, 'id')
+        servers = get_servers_from_id(id, 'id')
         servers_ids = get_id_server(servers)
 
         if server['id'] in servers_ids:

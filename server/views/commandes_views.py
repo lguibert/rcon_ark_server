@@ -20,7 +20,6 @@ def create_con(uuid_server):
 def execute_command(request):
     if request.method == "POST":
         data = json.loads(request.body)
-        print data
         cmd = data[0]
         params = data[1]
         uuid = data[2]
@@ -46,7 +45,6 @@ def execute_command(request):
 
 
 def create_command(cmd, uuid, param=None):
-    print uuid
     con = create_con(uuid)
     if param:
         result = con.rcon(cmd + " " + param)

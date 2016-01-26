@@ -118,6 +118,7 @@ class SourceRcon(object):
                 break
 
             packetsize = struct.unpack('<l', buf)[0]
+            print "packet: ", packetsize
 
             if packetsize < MIN_MESSAGE_LENGTH or packetsize > MAX_MESSAGE_LENGTH:
                 raise SourceRconError('RCON packet claims to have illegal size: %d bytes' % (packetsize,))
@@ -136,11 +137,14 @@ class SourceRcon(object):
                 except:
                     break
 
+            print "buf: ", buf
+
             if len(buf) != packetsize:
                 raise SourceRconError('Received RCON packet with bad length (%d of %d bytes)' % (len(buf),packetsize,))
 
             # parse the packet
             requestid = struct.unpack('<l', buf[:4])[0]
+            print "request: ", requestid
 
             if requestid == -1:
                 self.disconnect()
@@ -150,6 +154,7 @@ class SourceRcon(object):
                 raise SourceRconError('RCON request id error: %d, expected %d' % (requestid,self.reqid,))
 
             response = struct.unpack('<l', buf[4:8])[0]
+            print "response: ",response
 
             if response == SERVERDATA_AUTH_RESPONSE:
                 # This response says we're successfully authed.
