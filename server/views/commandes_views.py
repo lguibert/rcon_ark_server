@@ -1,5 +1,4 @@
 # encoding=utf8
-
 from general_views import send_response
 import srcds as rcon
 from srcds import SourceRconError
@@ -7,16 +6,24 @@ from django.views.decorators.csrf import csrf_exempt
 import json
 from django.conf import settings
 import re
+from server.models import Servers
 
-con = rcon.SourceRcon(settings.SERVER, settings.PORT, settings.PASSWORD, 10)
+#con = rcon.SourceRcon(settings.SERVER, settings.PORT, settings.PASSWORD, 10)
+
+
+def create_con(uuid_server):
+    server = Servers.objects.get(uuid=uuid_server)
+    return rcon.SourceRcon(server.address, server.port, server.password)
 
 
 @csrf_exempt
 def execute_command(request):
     if request.method == "POST":
         data = json.loads(request.body)
+        print data
         cmd = data[0]
         params = data[1]
+        uuid = data[2]
 
         try:
             if params is not None:
@@ -25,9 +32,9 @@ def execute_command(request):
                 for param in params:
                     params_striged = params_striged + ' ' + param
 
-                result = create_command(cmd, param)
+                result = create_command(cmd, uuid, param)
             else:
-                result = create_command(cmd)
+                result = create_command(cmd, uuid)
 
             parsed_result = parse_with(result, cmd.lower())
 
@@ -38,7 +45,9 @@ def execute_command(request):
         return send_response(None, 500)
 
 
-def create_command(cmd, param=None):
+def create_command(cmd, uuid, param=None):
+    print uuid
+    con = create_con(uuid)
     if param:
         result = con.rcon(cmd + " " + param)
     else:

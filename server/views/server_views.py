@@ -10,9 +10,9 @@ import time
 @csrf_exempt
 def get_myservers(request):
     if request.method == "POST":
-        #data = json.loads(request.body)
+        username = request.body
 
-        myservers = get_servers_from_username("Lucas")
+        myservers = get_servers_from_username(username)
 
         return send_response(list(myservers))
 
@@ -79,7 +79,7 @@ def connect_to_server(request):
 
         if server['id'] in servers_ids:
             if test_connection(server):
-                return send_response("CO_OK")
+                return send_response(server['uuid'])
             else:
                 return send_response("CO_NOP", 500)
         else:
