@@ -50,16 +50,18 @@ def create_command(cmd, uuid, param=None):
         result = con.rcon(cmd + " " + param)
     else:
         result = con.rcon(cmd)
+        print "result: ", result
 
     return result
 
 
 def parse_with(result, cmd):
-    resulted = None
     if cmd == "listplayers":
-        resulted = parse_listplayer(result)
-
-    return resulted
+        return parse_listplayer(result)
+    elif cmd == "getgamelog":
+        return parse_gamelog(result)
+    else:
+        return result
 
 
 def parse_listplayer(result):
@@ -75,3 +77,16 @@ def parse_listplayer(result):
         return parsed
     else:
         return "No player connected"
+
+
+def parse_gamelog(result):
+    splited = result.split("\n")
+
+    for i, part in enumerate(splited):
+        print type(part)
+        if part in ["\n", " "]:
+            splited.pop(i)
+
+    print splited
+
+    return splited
