@@ -35,7 +35,7 @@ def execute_command(request):
             else:
                 result = create_command(cmd, uuid)
 
-            parsed_result = parse_with(result, cmd.lower())
+            parsed_result = parse_with(result, cmd.lower(), uuid)
 
             return send_response([cmd, parsed_result])
         except SourceRconError:
@@ -55,11 +55,11 @@ def create_command(cmd, uuid, param=None):
     return result
 
 
-def parse_with(result, cmd):
+def parse_with(result, cmd, uuid):
     if cmd == "listplayers":
         return parse_listplayer(result)
     elif cmd == "getgamelog":
-        return parse_gamelog(result)
+        return parse_gamelog(result, uuid)
     else:
         return result
 
@@ -79,14 +79,21 @@ def parse_listplayer(result):
         return "No player connected"
 
 
-def parse_gamelog(result):
-    splited = result.split("\n")
+def parse_gamelog(result, uuid):
+    '''splited = result.split("\n")
 
     for i, part in enumerate(splited):
         print type(part)
         if part in ["\n", " "]:
             splited.pop(i)
 
-    print splited
+    print splited'''
 
-    return splited
+    splited = ['2016.01.28_14.50.07: SERVER: vous pouvez envoyer plein de message dans le chat please ?', '2016.01.28_14.50.10: Colonel Dimanche (Bob): dfsd', '2016.01.28_14.50.11: Salem Le Chat (Bob2): sdfgsqdfg', '2016.01.28_14.50.11: Colonel Dimanche (Bob): sdf', '2016.01.28_14.50.11: Colonel Dimanche (Bob): sdf', '2016.01.28_14.50.11: Salem Le Chat (Bob2): dfsg', '2016.01.28_14.50.11: Colonel Dimanche (Bob): sd', '2016.01.28_14.50.12: Salem Le Chat (Bob2): sdfg', '2016.01.28_14.50.12: Salem Le Chat (Bob2): sdfg', '2016.01.28_14.50.13: SalemLe Chat (Bob2): sdfg', '2016.01.28_14.50.18: Colonel Dimanche (Bob): dfg', "2016.01.28_14.50.28: Salem Le Chat (Bob2): c'est bon?", ' ']
+
+    log = open("E:/wamp/www/rcon_ark_server/logs/"+uuid+"/log.log","a")
+
+    for i, element in enumerate(splited):
+        log.write("<span class='tame'>"+element+"</span><br/>")
+
+    return log.read().close()
