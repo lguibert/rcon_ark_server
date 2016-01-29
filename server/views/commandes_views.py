@@ -7,6 +7,7 @@ import json
 from django.conf import settings
 import re, os
 from server.models import Servers
+from datetime import datetime
 
 
 # con = rcon.SourceRcon(settings.SERVER, settings.PORT, settings.PASSWORD, 10)
@@ -83,12 +84,13 @@ log_path = "E:/wamp/www/rcon_ark_server/logs"
 
 
 def parse_gamelog(result, uuid):
+    print result
     splited = result.split("\n")
 
     for i, part in enumerate(splited):
         if part in ["\n", " ", None, "Server received, But no response!! "]:
             splited.pop(i)
-    splited.pop(splited.__len__()-1)  # supprime le caractere vide à la fin qui veut pas partir
+    splited.pop(splited.__len__() - 1)  # supprime le caractere vide à la fin qui veut pas partir
 
     '''splited = ['2016.01.28_14.50.07: SERVER: vous pouvez envoyer plein de message dans le chat please ?',
                '2016.01.28_14.50.10: Colonel Dimanche (Bob): dfsd',
@@ -111,7 +113,9 @@ def parse_gamelog(result, uuid):
 
     log = open(path_tofile, "a")
     for i, element in enumerate(splited):
-        log.write("<span class='tame'>" + element + "</span><br/>")
+        type = format_html(element)
+        element = format_dateandtime(element)
+        log.write("<span class='" + type + "'>" + element + "</span><br/>")
 
     log.close()
 
@@ -120,3 +124,40 @@ def parse_gamelog(result, uuid):
     log.close()
 
     return result
+
+
+def format_html(content):
+    if re.search("(.*)was killed by(.*)", content):
+        return "kill"
+    elif re.search("(.*)joined this ARK!", content):
+        return "joinLeft"
+    elif re.search("(.*)left this ARK!", content):
+        return "joinLeft"
+    elif re.search("(.*)was killed!", content):
+        return "kill"
+    elif re.search("(.*)Tamed a ([A-z ]*) \\- (.*)", content):
+        return "tame"
+    elif re.search("(.*)SERVER:(.*)", content):
+        return "server"
+    else:
+        return "normal"
+
+
+def format_dateandtime(element):
+    splited = element.split(":",1)
+    fulldate = splited[0].split("_")
+    date = fulldate[0].split(".")
+    time = fulldate[1].split(".")
+
+    finaldate = datetime(int(date[0]), int(date[1]), int(date[2]), int(time[0]), int(time[1]), int(time[2]))
+    stringed_finaldate = add_zero(str(finaldate.day)) + '/' + add_zero(str(finaldate.month)) + '/' + add_zero(str(finaldate.year)) + '-' + add_zero(str(
+        finaldate.hour)) + ':' + add_zero(str(finaldate.minute)) + ':' + add_zero(str(finaldate.second))
+
+    return "<i>["+stringed_finaldate + "]</i>" + splited[1]
+
+
+def add_zero(i):
+    if len(i) < 2:
+        i = "0" + i
+
+    return i
