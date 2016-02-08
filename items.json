@@ -1,4 +1,5 @@
 {
+  "0": {},
   "1": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponGun.PrimalItem_WeaponGun'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/d/d0/Simple_Pistol.png/35px-Simple_Pistol.png?version=5af48cf5edb617f91ee82ab4dec06fd6",
@@ -2601,7 +2602,7 @@
   },
   "326": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_AnkyloEgg.PrimalItemConsumable_Kibble_AnkyloEgg'\"",
-    "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/f/f5/Kibble_%28Ankylo_Egg%29.png/35px-Kibble_%28Ankylo_Egg%29.png?version=b2c2f8cf69f748e3fa82b2e6ba14b825",
+    "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/8/8f/Kibble.png/35px-Kibble.png?version=e1c43641d5438bbca3ef0bff1628546c",
     "name": "Kibble (Ankylo Egg)",
     "type": "Consumable",
     "stack": " 100 ",
@@ -2609,7 +2610,7 @@
   },
   "327": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_ArgentEgg.PrimalItemConsumable_Kibble_ArgentEgg'\"",
-    "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/5/5a/Kibble_%28Argentavis_Egg%29.png/35px-Kibble_%28Argentavis_Egg%29.png?version=479acf9c79b9782982ccf59d5b77574e",
+    "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/8/8f/Kibble.png/35px-Kibble.png?version=e1c43641d5438bbca3ef0bff1628546c",
     "name": "Kibble (Argentavis Egg)",
     "type": "Consumable",
     "stack": " 100 ",
@@ -2625,7 +2626,7 @@
   },
   "329": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_CarnoEgg.PrimalItemConsumable_Kibble_CarnoEgg'\"",
-    "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/d/dd/Kibble_%28Carno_Egg%29.png/35px-Kibble_%28Carno_Egg%29.png?version=d0a97bd2914959f970e6d836787c5bdf",
+    "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/8/8f/Kibble.png/35px-Kibble.png?version=e1c43641d5438bbca3ef0bff1628546c",
     "name": "Kibble (Carno Egg)",
     "type": "Consumable",
     "stack": " 100 ",
@@ -2697,7 +2698,7 @@
   },
   "338": {
     "blueprint": "\n",
-    "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/8/8f/Kibble.png/35px-Kibble.png?version=d114fb50008272dade736db14f4a1dad",
+    "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/8/8f/Kibble.png/35px-Kibble.png?version=e1c43641d5438bbca3ef0bff1628546c",
     "name": "Kibble (Pulmonoscorpius Egg)",
     "type": "Consumable",
     "stack": " 100 ",
@@ -3488,6 +3489,118 @@
     "id": " 437"
   },
   "437": {
+    "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Greenhouse/PrimalItemStructure_GreenhouseWall.PrimalItemStructure_GreenhouseWall'\"",
+    "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/3/3c/Greenhouse_Wall.png/35px-Greenhouse_Wall.png?version=661584de0b819ddacce2fa28c144df01",
+    "name": "Greenhouse Wall",
+    "type": "Structure",
+    "stack": " 100 ",
+    "id": " 438"
+  },
+  "438": {
+    "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Greenhouse/PrimalItemStructure_GreenhouseCeiling.PrimalItemStructure_GreenhouseCeiling'\"",
+    "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/b/bf/Greenhouse_Ceiling.png/35px-Greenhouse_Ceiling.png?version=b19fb1174f96450f086c29c2d1842f4c",
+    "name": "Greenhouse Ceiling",
+    "type": "Structure",
+    "stack": " 100 ",
+    "id": " 439"
+  },
+  "439": {
+    "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Greenhouse/PrimalItemStructure_GreenhouseWallWithDoor.PrimalItemStructure_GreenhouseWallWithDoor'\"",
+    "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/b/b0/Greenhouse_Doorframe.png/35px-Greenhouse_Doorframe.png?version=9570c0b2817a7a098d0b311bb515b4bb",
+    "name": "Greenhouse Doorframe",
+    "type": "Structure",
+    "stack": " 100 ",
+    "id": " 440"
+  },
+  "440": {
+    "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Greenhouse/PrimalItemStructure_GreenhouseDoor.PrimalItemStructure_GreenhouseDoor'\"",
+    "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/0/03/Greenhouse_Door.png/35px-Greenhouse_Door.png?version=bcb2f4e7d1e5bc07cc3724a0a80e77f6",
+    "name": "Greenhouse Door",
+    "type": "Structure",
+    "stack": " 100 ",
+    "id": " 441"
+  },
+  "441": {
+    "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Greenhouse/PrimalItemStructure_GreenhouseWall_Sloped_Left.PrimalItemStructure_GreenhouseWall_Sloped_Left'\"",
+    "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/3/38/Greenhouse_Wall_Sloped_Left.png/35px-Greenhouse_Wall_Sloped_Left.png?version=4463ceb1814d81ff3ffc581b9dc7fce4",
+    "name": "Greenhouse Wall Sloped Left",
+    "type": "Structure",
+    "stack": " 100 ",
+    "id": " 442"
+  },
+  "442": {
+    "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Greenhouse/PrimalItemStructure_GreenhouseWall_Sloped_Right.PrimalItemStructure_GreenhouseWall_Sloped_Right'\"",
+    "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/b/b9/Greenhouse_Wall_Sloped_Right.png/35px-Greenhouse_Wall_Sloped_Right.png?version=62d8f1d9815d37104c1099544f834ecd",
+    "name": "Greenhouse Wall Sloped Right",
+    "type": "Structure",
+    "stack": " 100 ",
+    "id": " 443"
+  },
+  "443": {
+    "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Greenhouse/PrimalItemStructure_GreenhouseRoof.PrimalItemStructure_GreenhouseRoof'\"",
+    "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/2/22/Greenhouse_Roof.png/35px-Greenhouse_Roof.png?version=59ef3b7da9c6671423ad3cd77d7951f3",
+    "name": "Greenhouse Roof",
+    "type": "Structure",
+    "stack": " 100 ",
+    "id": " 444"
+  },
+  "444": {
+    "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Greenhouse/PrimalItemStructure_GreenhouseWindow.PrimalItemStructure_GreenhouseWindow'\"",
+    "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/3/35/Greenhouse_Window.png/35px-Greenhouse_Window.png?version=f5830cf38a9f34f7fa2d0319ff9d81a3",
+    "name": "Greenhouse Window",
+    "type": "Structure",
+    "stack": " 100 ",
+    "id": " 445"
+  },
+  "445": {
+    "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Riot/PrimalItemArmor_RiotPants.PrimalItemArmor_RiotPants'\"",
+    "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/a/ab/Riot_Leggings.png/35px-Riot_Leggings.png?version=d76493670df2abd9f4cdc2393914cf9f",
+    "name": "Riot Leggings",
+    "type": "Armor",
+    "stack": " 1 ",
+    "id": " 446"
+  },
+  "446": {
+    "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Riot/PrimalItemArmor_RiotShirt.PrimalItemArmor_RiotShirt'\"",
+    "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/5/5a/Riot_Chestpiece.png/35px-Riot_Chestpiece.png?version=95c6a56f4025823c804b2981898e282e",
+    "name": "Riot Chestpiece",
+    "type": "Armor",
+    "stack": " 1 ",
+    "id": " 447"
+  },
+  "447": {
+    "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Riot/PrimalItemArmor_RiotGloves.PrimalItemArmor_RiotGloves'\"",
+    "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/d/d1/Riot_Gauntlets.png/35px-Riot_Gauntlets.png?version=ff70bdd166bf8ba0ea198c515d2b8353",
+    "name": "Riot Gauntlets",
+    "type": "Armor",
+    "stack": " 1 ",
+    "id": " 448"
+  },
+  "448": {
+    "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Riot/PrimalItemArmor_RiotBoots.PrimalItemArmor_RiotBoots'\"",
+    "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/5/5a/Riot_Boots.png/35px-Riot_Boots.png?version=2d756f658bd885833c66636c238dc70c",
+    "name": "Riot Boots",
+    "type": "Armor",
+    "stack": " 1 ",
+    "id": " 449"
+  },
+  "449": {
+    "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Riot/PrimalItemArmor_RiotHelmet.PrimalItemArmor_RiotHelmet'\"",
+    "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/3/3a/Riot_Helmet.png/35px-Riot_Helmet.png?version=e2df45e056ec6ad90f6629eaaa21be48",
+    "name": "Riot Helmet",
+    "type": "Armor",
+    "stack": " 1 ",
+    "id": " 450"
+  },
+  "450": {
+    "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponElectricProd.PrimalItem_WeaponElectricProd'\"",
+    "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/4/48/Electric_Prod.png/35px-Electric_Prod.png?version=bbc364f18a56ad50e6a2e45641a1688a",
+    "name": "Electric Prod",
+    "type": "Weapons",
+    "stack": " 1 ",
+    "id": " 451"
+  },
+  "451": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_GasGrenade.PrimalItem_GasGrenade'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/d/d5/Smoke_Grenade.png/35px-Smoke_Grenade.png?version=f55df3188b4a926dead7c6362d2d38d2",
     "name": "Smoke Grenade",
@@ -3495,7 +3608,7 @@
     "stack": " 10 ",
     "id": " No ID"
   },
-  "438": {
+  "452": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/SCUBA/PrimalItemArmor_ScubaPants.PrimalItemArmor_ScubaPants'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/7/7e/SCUBA_Leggings.png/35px-SCUBA_Leggings.png?version=2d39186851fe722128b0683343eda407",
     "name": "SCUBA Leggings",
@@ -3503,7 +3616,7 @@
     "stack": " 1 ",
     "id": " No ID"
   },
-  "439": {
+  "453": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/BuildingBases/PrimalItemStructure_ElevatorTrackBase.PrimalItemStructure_ElevatorTrackBase'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/6/61/Elevator_Track.png/35px-Elevator_Track.png?version=606c75eafb60abcf61220295c608811b",
     "name": "Elevator Track",
@@ -3511,7 +3624,7 @@
     "stack": " 100 ",
     "id": " No ID"
   },
-  "440": {
+  "454": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/BuildingBases/PrimalItemStructure_ElevatorPlatformSmall.PrimalItemStructure_ElevatorPlatformSmall'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/f/f3/Small_Elevator_Platform.png/35px-Small_Elevator_Platform.png?version=323e557c5bd9170066123c620f34be62",
     "name": "Small Elevator Platform",
@@ -3519,7 +3632,7 @@
     "stack": " 100 ",
     "id": " No ID"
   },
-  "441": {
+  "455": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/BuildingBases/PrimalItemStructure_ElevatorPlatfromMedium.PrimalItemStructure_ElevatorPlatfromMedium'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/8/80/Medium_Elevator_Platform.png/35px-Medium_Elevator_Platform.png?version=76e647beddc887d211a5a96265bc2c6d",
     "name": "Medium Elevator Platform",
@@ -3527,7 +3640,7 @@
     "stack": " 100 ",
     "id": " No ID"
   },
-  "442": {
+  "456": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/BuildingBases/PrimalItemStructure_ElevatorPlatformLarge.PrimalItemStructure_ElevatorPlatformLarge'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/1/18/Large_Elevator_Platform.png/35px-Large_Elevator_Platform.png?version=757db1901dd19f05eb47ce9c37b1b40a",
     "name": "Large Elevator Platform",
@@ -3535,7 +3648,7 @@
     "stack": " 100 ",
     "id": " No ID"
   },
-  "443": {
+  "457": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TurretBallista.PrimalItemStructure_TurretBallista'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/6/65/Ballista_Turret.png/35px-Ballista_Turret.png?version=ea5d3bc47bb8c11468785f2db76d38ab",
     "name": "Ballista Turret",
@@ -3543,7 +3656,7 @@
     "stack": " 1 ",
     "id": " No ID"
   },
-  "444": {
+  "458": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_BallistaArrow.PrimalItemAmmo_BallistaArrow'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/9/99/Ballista_Bolt.png/35px-Ballista_Bolt.png?version=2d29404280391f4089f7161c633cac51",
     "name": "Ballista Bolt",
@@ -3551,7 +3664,7 @@
     "stack": " 50 ",
     "id": " No ID"
   },
-  "445": {
+  "459": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_PlesiSaddle_Platform.PrimalItemArmor_PlesiSaddle_Platform'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/e/e5/Plesiosaur_Platform_Saddle.png/35px-Plesiosaur_Platform_Saddle.png?version=40d5665a002e6ab78fed437e6fd021e7",
     "name": "Plesiosaur Platform Saddle",
@@ -3559,7 +3672,7 @@
     "stack": " 1 ",
     "id": " No ID"
   },
-  "446": {
+  "460": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_Furniture_WoodChair.PrimalItemStructure_Furniture_WoodChair'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/8/87/Wooden_Chair.png/35px-Wooden_Chair.png?version=9c300f3f1d425132cdedca56b44bd2d4",
     "name": "Wooden Chair",
@@ -3567,7 +3680,7 @@
     "stack": " 100 ",
     "id": " No ID"
   },
-  "447": {
+  "461": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_Furniture_WoodBench.PrimalItemStructure_Furniture_WoodBench'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/f/fa/Wooden_Bench.png/35px-Wooden_Bench.png?version=f685d90b105f007372844083b31e9bd5",
     "name": "Wooden Bench",
@@ -3575,7 +3688,7 @@
     "stack": " 100 ",
     "id": " No ID"
   },
-  "448": {
+  "462": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_Furniture_Gravestone.PrimalItemStructure_Furniture_Gravestone'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/5/54/Basic_Gravestone.png/35px-Basic_Gravestone.png?version=bc5886a7b42d0789b9626f8d5aaf52f5",
     "name": "Basic Gravestone",
@@ -3583,7 +3696,7 @@
     "stack": " 100 ",
     "id": " No ID"
   },
-  "449": {
+  "463": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_BugRepellant.PrimalItemConsumable_BugRepellant'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/4/47/Bug_Repellant.png/35px-Bug_Repellant.png?version=7a969d4d196cd0b49a1f5fe567c79cb6",
     "name": "Bug Repellant",
@@ -3591,7 +3704,7 @@
     "stack": " 100 ",
     "id": " No ID"
   },
-  "450": {
+  "464": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TrophyBase.PrimalItemStructure_TrophyBase'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/8/85/Trophy_Base.png/35px-Trophy_Base.png?version=eb0a6835216cf6eb1d066b32f0f11145",
     "name": "Trophy Base",
@@ -3599,7 +3712,7 @@
     "stack": " 1 ",
     "id": " No ID"
   },
-  "451": {
+  "465": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_SotF_1st.PrimalItemTrophy_SotF_1st'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/1/1c/%27Survival_of_the_Fittest%27_Trophy-_1st_Place.png/35px-%27Survival_of_the_Fittest%27_Trophy-_1st_Place.png?version=a74affd9269ef18884ff45ad83334a21",
     "name": "Survival of the Fittest Trophy: 1st Place",
@@ -3607,7 +3720,7 @@
     "stack": " 1 ",
     "id": " No ID"
   },
-  "452": {
+  "466": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_SotF_2nd.PrimalItemTrophy_SotF_2nd'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/7/7b/%27Survival_of_the_Fittest%27_Trophy-_2nd_Place.png/35px-%27Survival_of_the_Fittest%27_Trophy-_2nd_Place.png?version=f7ca17d323f2e0feb83d6edc9db203c1",
     "name": "Survival of the Fittest Trophy: 2nd Place",
@@ -3615,7 +3728,7 @@
     "stack": " 1 ",
     "id": " No ID"
   },
-  "453": {
+  "467": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_SotF_3rd.PrimalItemTrophy_SotF_3rd'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/7/79/%27Survival_of_the_Fittest%27_Trophy-_3rd_Place.png/35px-%27Survival_of_the_Fittest%27_Trophy-_3rd_Place.png?version=d9294db9767338323a83102a5db28ce4",
     "name": "Survival of the Fittest Trophy: 3rd Place",
@@ -3623,7 +3736,7 @@
     "stack": " 1 ",
     "id": " No ID"
   },
-  "454": {
+  "468": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_SotFUS_1st.PrimalItemTrophy_SotFUS_1st'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/9/90/%27SotF-_Unnatural_Selection%27_Trophy-_1st_Place.png/35px-%27SotF-_Unnatural_Selection%27_Trophy-_1st_Place.png?version=df72b1fda9bdf7194f6ad23f43578f16",
     "name": "SotF: Unnatural Selection Trophy: 1st Place",
@@ -3631,7 +3744,7 @@
     "stack": " 1 ",
     "id": " No ID"
   },
-  "455": {
+  "469": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_SotFUS_2nd.PrimalItemTrophy_SotFUS_2nd'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/f/fb/%27SotF-_Unnatural_Selection%27_Trophy-_2nd_Place.png/35px-%27SotF-_Unnatural_Selection%27_Trophy-_2nd_Place.png?version=ed77a7459a51709520500794160fc645",
     "name": "SotF: Unnatural Selection Trophy: 2nd Place",
@@ -3639,7 +3752,7 @@
     "stack": " 1 ",
     "id": " No ID"
   },
-  "456": {
+  "470": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_SotFUS_3rd.PrimalItemTrophy_SotFUS_3rd'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/1/12/%27SotF-_Unnatural_Selection%27_Trophy-_3rd_Place.png/35px-%27SotF-_Unnatural_Selection%27_Trophy-_3rd_Place.png?version=683104768d71a35ccf670dba5573f171",
     "name": "SotF: Unnatural Selection Trophy: 3rd Place",
@@ -3647,7 +3760,7 @@
     "stack": " 1 ",
     "id": " No ID"
   },
-  "457": {
+  "471": {
     "blueprint": "\n",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/5/58/%27SotF-_The_Last_Stand%27_Trophy-_1st_Place.png/35px-%27SotF-_The_Last_Stand%27_Trophy-_1st_Place.png?version=1b2f018e02a590e94ab2e3fe1244705e",
     "name": "SotF: The Last Stand Trophy: 1st Place",
@@ -3655,7 +3768,7 @@
     "stack": " 1 ",
     "id": " No ID"
   },
-  "458": {
+  "472": {
     "blueprint": "\n",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/5/59/%27SotF-_The_Last_Stand%27_Trophy-_2nd_Place.png/35px-%27SotF-_The_Last_Stand%27_Trophy-_2nd_Place.png?version=6b036e7e60e813962ee83f52204b0342",
     "name": "SotF: The Last Stand Trophy: 2nd Place",
@@ -3663,7 +3776,7 @@
     "stack": " 1 ",
     "id": " No ID"
   },
-  "459": {
+  "473": {
     "blueprint": "\n",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/6/62/%27SotF-_The_Last_Stand%27_Trophy-_3rd_Place.png/35px-%27SotF-_The_Last_Stand%27_Trophy-_3rd_Place.png?version=c1f08608e8b3b852a57aac3b282d84ef",
     "name": "SotF: The Last Stand Trophy: 3rd Place",
@@ -3671,7 +3784,7 @@
     "stack": " 1 ",
     "id": " No ID"
   },
-  "460": {
+  "474": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_TranqDart.PrimalItemAmmo_TranqDart'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/5/56/Tranquilizer_Dart.png/35px-Tranquilizer_Dart.png?version=e0d9001e6a573c07d35128522ab05c0d",
     "name": "Tranquilizer Dart",
@@ -3679,7 +3792,7 @@
     "stack": " 50 ",
     "id": " No ID"
   },
-  "461": {
+  "475": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_QuetzSaddle_Platform.PrimalItemArmor_QuetzSaddle_Platform'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/b/bc/Quetz_Platform_Saddle.png/35px-Quetz_Platform_Saddle.png?version=f368026f906d07f96f945a595ee2a01e",
     "name": "Quetz Platform Saddle",
@@ -3687,7 +3800,7 @@
     "stack": " 1 ",
     "id": " No ID"
   },
-  "462": {
+  "476": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_AdvancedSniperBullet.PrimalItemAmmo_AdvancedSniperBullet'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/6/6c/Advanced_Sniper_Bullet.png/35px-Advanced_Sniper_Bullet.png?version=73ff19bb48bfbd45e60ec9b2d04fd3a0",
     "name": "Advanced Sniper Bullet",
@@ -3695,7 +3808,7 @@
     "stack": " 50 ",
     "id": " No ID"
   },
-  "463": {
+  "477": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Quetz.PrimalItemConsumable_Egg_Quetz'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/d/d7/Quetzal_Egg.png/35px-Quetzal_Egg.png?version=23774788f114e69de316d07fb1e65a2e",
     "name": "Quetzal Egg",
@@ -3703,7 +3816,7 @@
     "stack": " 100 ",
     "id": " No ID"
   },
-  "464": {
+  "478": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_QuetzEgg.PrimalItemConsumable_Kibble_QuetzEgg'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/b/bd/Kibble_%28Quetzal_Egg%29.png/35px-Kibble_%28Quetzal_Egg%29.png?version=a6c21493d711ee9f409268768927dcea",
     "name": "Kibble (Quetzal Egg)",
@@ -3711,7 +3824,7 @@
     "stack": " 100 ",
     "id": " No ID"
   },
-  "465": {
+  "479": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MosaSaddle_Platform.PrimalItemArmor_MosaSaddle_Platform'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/0/03/Mosasaurus_Platform_Saddle.png/35px-Mosasaurus_Platform_Saddle.png?version=7e22cf7b133bd8b9e23f45f9f88e61f8",
     "name": "Mosasaurus Platform Saddle",
@@ -3719,7 +3832,7 @@
     "stack": " 1 ",
     "id": " No ID"
   },
-  "466": {
+  "480": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MosaSaddle.PrimalItemArmor_MosaSaddle'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/b/bf/Mosasaurus_Saddle.png/35px-Mosasaurus_Saddle.png?version=6107cd9cfb767b7c58e6557294a10cee",
     "name": "Mosasaurus Saddle",
@@ -3727,7 +3840,7 @@
     "stack": " 1 ",
     "id": " No ID"
   },
-  "467": {
+  "481": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_QuetzSaddle.PrimalItemArmor_QuetzSaddle'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/e/e8/Quetz_Saddle.png/35px-Quetz_Saddle.png?version=e4ecc7c8700b8ec34940a64dcb14da75",
     "name": "Quetz Saddle",
@@ -3735,7 +3848,7 @@
     "stack": " 1 ",
     "id": " No ID"
   },
-  "468": {
+  "482": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_Wardrums.PrimalItemStructure_Wardrums'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/d/db/Wardrums.png/35px-Wardrums.png?version=e88b2434cff21c402ca60844d79c3e41",
     "name": "Wardrums",
@@ -3743,7 +3856,7 @@
     "stack": "\u00a0? ",
     "id": " No ID"
   },
-  "469": {
+  "483": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WarMap.PrimalItemStructure_WarMap'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/7/7a/War_Map.png/35px-War_Map.png?version=80d72052462802ff46d08216dc5a34c5",
     "name": "War Map",
@@ -3751,7 +3864,7 @@
     "stack": "\u00a0? ",
     "id": " No ID"
   },
-  "470": {
+  "484": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodRailing.PrimalItemStructure_WoodRailing'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/7/7b/Wooden_Railing.png/35px-Wooden_Railing.png?version=66501441b3bd8d46df10b10f682f912b",
     "name": "Wooden Railing",
@@ -3759,7 +3872,7 @@
     "stack": " 100 ",
     "id": " No ID"
   },
-  "471": {
+  "485": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StoneRailing.PrimalItemStructure_StoneRailing'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/1/1b/Stone_Railing.png/35px-Stone_Railing.png?version=76999979347515eefc02c3640e9a949b",
     "name": "Stone Railing",
@@ -3767,7 +3880,7 @@
     "stack": " 100 ",
     "id": " No ID"
   },
-  "472": {
+  "486": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalRailing.PrimalItemStructure_MetalRailing'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/8/85/Metal_Railing.png/35px-Metal_Railing.png?version=2984e63a9f5f6a9dcf57af1375ab48a9",
     "name": "Metal Railing",
@@ -3775,7 +3888,7 @@
     "stack": " 100 ",
     "id": " No ID"
   },
-  "473": {
+  "487": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_WitchHat.PrimalItemSkin_WitchHat'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/6/6b/Witch_Hat_Skin.png/35px-Witch_Hat_Skin.png?version=9125de7276461d055a089106c19923aa",
     "name": "Witch Hat Skin",
@@ -3783,7 +3896,7 @@
     "stack": " 1 ",
     "id": " No ID"
   },
-  "474": {
+  "488": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItemSkin_DinoWitchHat.PrimalItemSkin_DinoWitchHat'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/6/6b/Witch_Hat_Skin.png/35px-Witch_Hat_Skin.png?version=9125de7276461d055a089106c19923aa",
     "name": "Dino Witch Hat Skin",
@@ -3791,7 +3904,7 @@
     "stack": " 1 ",
     "id": " No ID"
   },
-  "475": {
+  "489": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemCostume_BoneCarno.PrimalItemCostume_BoneCarno'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/4/43/Carno_Bone_Costume.png/35px-Carno_Bone_Costume.png?version=7418f7d581052ef7e4a3275fe5b42e67",
     "name": "Carno Bone Costume",
@@ -3799,7 +3912,7 @@
     "stack": " 1 ",
     "id": " No ID"
   },
-  "476": {
+  "490": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemCostume_BoneRaptor.PrimalItemCostume_BoneRaptor'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/e/e4/Raptor_Bone_Costume.png/35px-Raptor_Bone_Costume.png?version=78d4db5a5b26ac42f35fa6ca526e9547",
     "name": "Raptor Bone Costume",
@@ -3807,7 +3920,7 @@
     "stack": " 1 ",
     "id": " No ID"
   },
-  "477": {
+  "491": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemCostume_BoneRex.PrimalItemCostume_BoneRex'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/f/fa/Rex_Bone_Costume.png/35px-Rex_Bone_Costume.png?version=2e6909bc903043ed575121b189d0602b",
     "name": "Rex Bone Costume",
@@ -3815,7 +3928,7 @@
     "stack": " 1 ",
     "id": " No ID"
   },
-  "478": {
+  "492": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemCostume_BoneSauro.PrimalItemCostume_BoneSauro'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/2/24/Bronto_Bone_Costume.png/35px-Bronto_Bone_Costume.png?version=8b22968c156d01501841ce11d9d4d4e3",
     "name": "Bronto Bone Costume",
@@ -3823,7 +3936,7 @@
     "stack": " 1 ",
     "id": " No ID"
   },
-  "479": {
+  "493": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemCostume_BoneStego.PrimalItemCostume_BoneStego'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/9/99/Stego_Bone_Costume.png/35px-Stego_Bone_Costume.png?version=a7f97c208185289bb7270488b5f5ea72",
     "name": "Stego Bone Costume",
@@ -3831,7 +3944,7 @@
     "stack": " 1 ",
     "id": " No ID"
   },
-  "480": {
+  "494": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemCostume_BoneTrike.PrimalItemCostume_BoneTrike'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/e/e1/Trike_Bone_Costume.png/35px-Trike_Bone_Costume.png?version=f5741b89519b5a1b6e9dc8896b2b87ce",
     "name": "Trike Bone Costume",
@@ -3839,7 +3952,7 @@
     "stack": " 1 ",
     "id": " No ID"
   },
-  "481": {
+  "495": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/structures/halloween/PrimalItemStructure_Pumpkin.PrimalItemStructure_Pumpkin'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/6/64/Pumpkin.png/35px-Pumpkin.png?version=d33ceee73269f247c5d0360d3bb8c54d",
     "name": "Pumpkin",
@@ -3847,7 +3960,7 @@
     "stack": " 100 ",
     "id": " No ID"
   },
-  "482": {
+  "496": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/structures/halloween/PrimalItemStructure_Scarecrow.PrimalItemStructure_Scarecrow'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/7/75/Scarecrow.png/35px-Scarecrow.png?version=aca32f3faf66c4a3eae947d9fc07b671",
     "name": "Scarecrow",
@@ -3855,7 +3968,7 @@
     "stack": " 100 ",
     "id": " No ID"
   },
-  "483": {
+  "497": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TrophyWall.PrimalItemStructure_TrophyWall'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/f/f3/Trophy_Wall-Mount.png/35px-Trophy_Wall-Mount.png?version=72b19f79ca3e5259ede06de53bb73a53",
     "name": "Trophy Wall-Mount",
@@ -3863,7 +3976,7 @@
     "stack": " 100 ",
     "id": " No ID"
   },
-  "484": {
+  "498": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_AlphaRex.PrimalItemTrophy_AlphaRex'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/2/2d/Alpha_Rex_Trophy.png/35px-Alpha_Rex_Trophy.png?version=81bd23bcb1dbd9e38b5bf170a0341d88",
     "name": "Alpha Rex Trophy",
@@ -3871,7 +3984,7 @@
     "stack": " 1 ",
     "id": " No ID"
   },
-  "485": {
+  "499": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Broodmother.PrimalItemTrophy_Broodmother'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/2/27/Broodmother_Trophy.png/35px-Broodmother_Trophy.png?version=b90f12ba1db6c6e66eab0dcd46c5b755",
     "name": "Broodmother Trophy",
@@ -3879,7 +3992,7 @@
     "stack": " 1 ",
     "id": " No ID"
   },
-  "486": {
+  "500": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_SpiderSaddle.PrimalItemArmor_SpiderSaddle'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/8/8b/Araneo_Saddle.png/35px-Araneo_Saddle.png?version=c148619a540b97648f2cf8833045624a",
     "name": "Araneo Saddle",
@@ -3887,7 +4000,7 @@
     "stack": " 1 ",
     "id": " No ID"
   },
-  "487": {
+  "501": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponSword.PrimalItem_WeaponSword'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/f/f9/Metal_Sword.png/35px-Metal_Sword.png?version=36ac303559255d64a513aa8b3ddc84c8",
     "name": "Metal Sword",
@@ -3895,7 +4008,7 @@
     "stack": " 1 ",
     "id": " No ID"
   },
-  "488": {
+  "502": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Shields/PrimalItemArmor_WoodShield.PrimalItemArmor_WoodShield'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/6/61/Wooden_Shield.png/35px-Wooden_Shield.png?version=67cd0c34e8bf3f51cda81540bf61d41a",
     "name": "Wooden Shield",
@@ -3903,7 +4016,7 @@
     "stack": " 1 ",
     "id": " No ID"
   },
-  "489": {
+  "503": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Shields/PrimalItemArmor_MetalShield.PrimalItemArmor_MetalShield'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/7/7e/Metal_Shield.png/35px-Metal_Shield.png?version=5ff563d4cb84970a319b11bfd2e38008",
     "name": "Metal Shield",
@@ -3911,7 +4024,7 @@
     "stack": " 1 ",
     "id": " No ID"
   },
-  "490": {
+  "504": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Shields/PrimalItemArmor_TransparentRiotShield.PrimalItemArmor_TransparentRiotShield'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/0/07/Riot_Shield.png/35px-Riot_Shield.png?version=5d78dfa1aaaf00d03dadb07a6f1f9c84",
     "name": "Riot Shield",
@@ -3919,7 +4032,7 @@
     "stack": " 1 ",
     "id": " No ID"
   },
-  "491": {
+  "505": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumableSoap.PrimalItemConsumableSoap'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/6/65/Soap.png/35px-Soap.png?version=bdc87dd761c8a4a5c6350ccf213da5e0",
     "name": "Soap",
@@ -3927,7 +4040,7 @@
     "stack": " 1 ",
     "id": " No ID"
   },
-  "492": {
+  "506": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_GigantSaddle.PrimalItemArmor_GigantSaddle'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/e/e2/Giganotosaurus_Saddle.png/35px-Giganotosaurus_Saddle.png?version=a4d82a9bb07f149cfd286006da3fb87b",
     "name": "Giganotosaurus Saddle",
@@ -3935,7 +4048,7 @@
     "stack": " 1 ",
     "id": " No ID"
   },
-  "493": {
+  "507": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Gigant.PrimalItemConsumable_Egg_Gigant'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/e/e6/Giganotosaurus_Egg.png/35px-Giganotosaurus_Egg.png?version=05ccc6a4d92059493d4ecc3addfe175e",
     "name": "Giganotosaurus Egg",
@@ -3943,7 +4056,7 @@
     "stack": " 100 ",
     "id": " No ID"
   },
-  "494": {
+  "508": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Polymer_Organic.PrimalItemResource_Polymer_Organic'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/1/13/Organic_Polymer.png/35px-Organic_Polymer.png?version=fa777c0095d266c39acfec4fef00e162",
     "name": "Organic Polymer",
@@ -3951,7 +4064,7 @@
     "stack": " 10 ",
     "id": " No ID"
   },
-  "495": {
+  "509": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TurretMinigun.PrimalItemStructure_TurretMinigun'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/b/b6/Minigun_Turret.png/35px-Minigun_Turret.png?version=1e94b56b7748290d92da53cd484eb5e4",
     "name": "Minigun Turret",
@@ -3959,7 +4072,7 @@
     "stack": " 100 ",
     "id": " No ID"
   },
-  "496": {
+  "510": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TurretCatapult.PrimalItemStructure_TurretCatapult'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/2/22/Catapult_Turret.png/35px-Catapult_Turret.png?version=4e2176cd44edcabbde8306491cccbd29",
     "name": "Catapult Turret",
@@ -3967,7 +4080,7 @@
     "stack": " 100 ",
     "id": " No ID"
   },
-  "497": {
+  "511": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_Boulder.PrimalItemAmmo_Boulder'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/2/21/Boulder.png/35px-Boulder.png?version=429c2577c4a49efaf04c0ca1cf924259",
     "name": "Boulder",
@@ -3975,7 +4088,7 @@
     "stack": " 50 ",
     "id": " No ID"
   },
-  "498": {
+  "512": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_AnglerGel.PrimalItemResource_AnglerGel'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/0/01/Angler_Gel.png/35px-Angler_Gel.png?version=e3ec447470d0fbf107d1976ea13f6c15",
     "name": "Angler Gel",
@@ -3983,7 +4096,7 @@
     "stack": " 100 ",
     "id": " No ID"
   },
-  "499": {
+  "513": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Kairuku.PrimalItemConsumable_Egg_Kairuku'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/5/59/Kairuku_Egg.png/35px-Kairuku_Egg.png?version=e08e25fd96f4fec2776f6b9b59341db1",
     "name": "Kairuku Egg",
@@ -3991,15 +4104,15 @@
     "stack": " 100 ",
     "id": " No ID"
   },
-  "500": {
+  "514": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_KairukuEgg.PrimalItemConsumable_Kibble_KairukuEgg'\"",
-    "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/8/8f/Kibble.png/35px-Kibble.png?version=d114fb50008272dade736db14f4a1dad",
+    "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/8/8f/Kibble.png/35px-Kibble.png?version=e1c43641d5438bbca3ef0bff1628546c",
     "name": "Kibble (Kairuku Egg)",
     "type": "Consumable",
     "stack": " 100 ",
     "id": " No ID"
   },
-  "501": {
+  "515": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TurretRocket.PrimalItemStructure_TurretRocket'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/5/56/Rocket_Turret.png/35px-Rocket_Turret.png?version=5844dfa356aef0033c13df7cee2f89e4",
     "name": "Rocket Turret",
@@ -4007,7 +4120,7 @@
     "stack": " 100 ",
     "id": " No ID"
   },
-  "502": {
+  "516": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/Test/PrimalItem_WeaponMagnifyingGlass.PrimalItem_WeaponMagnifyingGlass'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/5/5f/Magnifying_Glass.png/35px-Magnifying_Glass.png?version=4c46639d999c2395531102877e5cb291",
     "name": "Magnifying Glass",
@@ -4015,7 +4128,7 @@
     "stack": " ",
     "id": " No ID"
   },
-  "503": {
+  "517": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_SeaMine.PrimalItemStructure_SeaMine'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/0/03/Homing_Underwater_Mine.png/35px-Homing_Underwater_Mine.png?version=eb61dcf023c353935b68d718460756b6",
     "name": "Homing Underwater Mine",
@@ -4023,7 +4136,7 @@
     "stack": " ",
     "id": " No ID"
   },
-  "504": {
+  "518": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_WallTorch.PrimalItemStructure_WallTorch'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/c/c8/Wall_Torch.png/35px-Wall_Torch.png?version=0d0509b91a42fa7d36ea052fde948846",
     "name": "Wall Torch",
@@ -4031,7 +4144,7 @@
     "stack": " 100 ",
     "id": " No ID"
   },
-  "505": {
+  "519": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Wishbone.PrimalItemResource_Wishbone'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/b/bc/Wishbone.png/35px-Wishbone.png?version=ec967d1b8501a245e8ff4b2d22a3f748",
     "name": "Wishbone",
@@ -4039,7 +4152,7 @@
     "stack": " 100 ",
     "id": " No ID"
   },
-  "506": {
+  "520": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_TurkeyHat.PrimalItemSkin_TurkeyHat'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/e/e8/Chieftan_Hat_Skin.png/35px-Chieftan_Hat_Skin.png?version=a676cd1e60a82230c7b48756ceab41c6",
     "name": "Chieftan Hat Skin",
@@ -4047,7 +4160,7 @@
     "stack": " 1 ",
     "id": " No ID"
   },
-  "507": {
+  "521": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_IndustrialForge.PrimalItemStructure_IndustrialForge'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/c/c5/Industrial_Forge.png/35px-Industrial_Forge.png?version=aca8300882a3f8f714ac70be4606d2dc",
     "name": "Industrial Forge",
@@ -4055,7 +4168,7 @@
     "stack": "\u00a0? ",
     "id": " No ID"
   },
-  "508": {
+  "522": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_IndustrialCookingPot.PrimalItemStructure_IndustrialCookingPot'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/9/91/Industrial_Cooker.png/35px-Industrial_Cooker.png?version=d1b6b9f9dbb598b3ca460ee2708c676c",
     "name": "Industrial Cooker",
@@ -4063,7 +4176,7 @@
     "stack": "\u00a0? ",
     "id": " No ID"
   },
-  "509": {
+  "523": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Bed_Modern.PrimalItemStructure_Bed_Modern'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/3/34/Bunk_Bed.png/35px-Bunk_Bed.png?version=e7d45bfd129d634caa396602aa230324",
     "name": "Bunk Bed",
@@ -4071,7 +4184,7 @@
     "stack": " 3 ",
     "id": " No ID"
   },
-  "510": {
+  "524": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_Furniture_WoodTable.PrimalItemStructure_Furniture_WoodTable'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/f/f4/Wooden_Table.png/35px-Wooden_Table.png?version=ab3920bb07a56071f584ff81efc9fb2a",
     "name": "Wooden Table",
@@ -4079,7 +4192,7 @@
     "stack": " 100 ",
     "id": " No ID"
   },
-  "511": {
+  "525": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Ghillie/PrimalItemArmor_GhillieBoots.PrimalItemArmor_GhillieBoots'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/9/9b/Ghillie_Boots.png/35px-Ghillie_Boots.png?version=20fd6a858f2ef265b96f3f4b9f1652d2",
     "name": "Ghillie Boots",
@@ -4087,7 +4200,7 @@
     "stack": " 1 ",
     "id": " No ID"
   },
-  "512": {
+  "526": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Ghillie/PrimalItemArmor_GhillieShirt.PrimalItemArmor_GhillieShirt'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/8/8b/Ghillie_Chestpiece.png/35px-Ghillie_Chestpiece.png?version=b2bf135d7f701fbf59323511b45892ed",
     "name": "Ghillie Chestpiece",
@@ -4095,7 +4208,7 @@
     "stack": " 1 ",
     "id": " No ID"
   },
-  "513": {
+  "527": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Ghillie/PrimalItemArmor_GhillieGloves.PrimalItemArmor_GhillieGloves'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/b/bf/Ghillie_Gauntlets.png/35px-Ghillie_Gauntlets.png?version=8e4615faaf9fc4672264b684eba2ef06",
     "name": "Ghillie Gauntlets",
@@ -4103,7 +4216,7 @@
     "stack": " 1 ",
     "id": " No ID"
   },
-  "514": {
+  "528": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Ghillie/PrimalItemArmor_GhilliePants.PrimalItemArmor_GhilliePants'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/1/1a/Ghillie_Leggings.png/35px-Ghillie_Leggings.png?version=910afa9bcd0606e1ba08ca44444f4b8d",
     "name": "Ghillie Leggings",
@@ -4111,7 +4224,7 @@
     "stack": " 1 ",
     "id": " No ID"
   },
-  "515": {
+  "529": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Ghillie/PrimalItemArmor_GhillieHelmet.PrimalItemArmor_GhillieHelmet'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/f/f2/Ghillie_Mask.png/35px-Ghillie_Mask.png?version=0a9b87614926ba3fe488c263a90cfe13",
     "name": "Ghillie Mask",
@@ -4119,7 +4232,7 @@
     "stack": " 1 ",
     "id": " No ID"
   },
-  "516": {
+  "530": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Fireplace.PrimalItemStructure_Fireplace'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/c/c2/Stone_Fireplace.png/35px-Stone_Fireplace.png?version=7e0fec2b6198d38be532b28ba45b9520",
     "name": "Stone Fireplace",
@@ -4127,7 +4240,7 @@
     "stack": " 3 ",
     "id": " No ID"
   },
-  "517": {
+  "531": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodCage.PrimalItemStructure_WoodCage'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/4/4b/Wooden_Cage.png/35px-Wooden_Cage.png?version=2fa83babf0c95eb8f396c2878c4a9721",
     "name": "Wooden Cage",
@@ -4135,7 +4248,7 @@
     "stack": " 100 ",
     "id": " No ID"
   },
-  "518": {
+  "532": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Oviraptor.PrimalItemConsumable_Egg_Oviraptor'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/6/61/Oviraptor_Egg.png/35px-Oviraptor_Egg.png?version=ed7bb229242c93f958519a7e236e26d9",
     "name": "Oviraptor Egg",
@@ -4143,7 +4256,7 @@
     "stack": " 100 ",
     "id": " No ID"
   },
-  "519": {
+  "533": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_MistleToe.PrimalItemResource_MistleToe'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/c/c3/Mistletoe.png/35px-Mistletoe.png?version=aea0f1f8effe132de2f921f2d0186945",
     "name": "Mistletoe",
@@ -4151,7 +4264,7 @@
     "stack": " 200 ",
     "id": " No ID"
   },
-  "520": {
+  "534": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Coal.PrimalItemResource_Coal'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/a/a7/Coal.png/35px-Coal.png?version=a0a036d27047d9f63ecf0e38b71c380b",
     "name": "Coal",
@@ -4159,7 +4272,7 @@
     "stack": " 200 ",
     "id": " No ID"
   },
-  "521": {
+  "535": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Christmas/PrimalItemStructure_Wreath.PrimalItemStructure_Wreath'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/d/de/Wreath.png/35px-Wreath.png?version=de6a3beaae729978b0634ee3d55820c4",
     "name": "Wreath",
@@ -4167,7 +4280,7 @@
     "stack": " 100 ",
     "id": " No ID"
   },
-  "522": {
+  "536": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Christmas/PrimalItemStructure_ChristmasTree.PrimalItemStructure_ChristmasTree'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/e/ef/Holiday_Tree.png/35px-Holiday_Tree.png?version=af6e5f2a098d47e3b7d77c65e4d1d84b",
     "name": "Holiday Tree",
@@ -4175,7 +4288,7 @@
     "stack": " 100 ",
     "id": " No ID"
   },
-  "523": {
+  "537": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Christmas/PrimalItemStructure_XmasLights.PrimalItemStructure_XmasLights'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/c/cf/Holiday_Lights.png/35px-Holiday_Lights.png?version=38698c9bcc540924b63dbcb107022d2c",
     "name": "Holiday Lights",
@@ -4183,7 +4296,7 @@
     "stack": " 100 ",
     "id": " No ID"
   },
-  "524": {
+  "538": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Christmas/PrimalItemStructure_Snowman.PrimalItemStructure_Snowman'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/c/c7/Snowman.png/35px-Snowman.png?version=f31fe45cd38deecd5c4e9c4dcac4160d",
     "name": "Snowman",
@@ -4191,7 +4304,7 @@
     "stack": " 100 ",
     "id": " No ID"
   },
-  "525": {
+  "539": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Christmas/PrimalItemStructure_Stocking.PrimalItemStructure_Stocking'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/0/01/Holiday_Stocking.png/35px-Holiday_Stocking.png?version=05b91ef56cad51e213a644488fbc7032",
     "name": "Holiday Stocking",
@@ -4199,7 +4312,7 @@
     "stack": " 100 ",
     "id": " No ID"
   },
-  "526": {
+  "540": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Christmas/PrimalItemStructure_StorageBox_ChristmasGift.PrimalItemStructure_StorageBox_ChristmasGift'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/5/56/Gift_Box.png/35px-Gift_Box.png?version=a9ab4c5f737c00b2aa5e3071dd0d5006",
     "name": "Gift Box",
@@ -4207,7 +4320,7 @@
     "stack": " 100 ",
     "id": " No ID"
   },
-  "527": {
+  "541": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_SantaHat.PrimalItemSkin_SantaHat'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/d/d2/Santa_Hat_Skin.png/35px-Santa_Hat_Skin.png?version=ccc8884687b6c5fef5952c2e45849e3c",
     "name": "Santa Hat Skin",
@@ -4215,7 +4328,7 @@
     "stack": " 1 ",
     "id": " No ID"
   },
-  "528": {
+  "542": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_DinoSantaHat.PrimalItemSkin_DinoSantaHat'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/d/d2/Santa_Hat_Skin.png/35px-Santa_Hat_Skin.png?version=ccc8884687b6c5fef5952c2e45849e3c",
     "name": "Dino Santa Hat Skin",
@@ -4223,7 +4336,7 @@
     "stack": " 1 ",
     "id": " No ID"
   },
-  "529": {
+  "543": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItemSkin_CandyClub.PrimalItemSkin_CandyClub'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/d/df/Candy_Cane_Club_Skin.png/35px-Candy_Cane_Club_Skin.png?version=07e3c0840123e098cfa695b9d44941a2",
     "name": "Candy Cane Club Skin",
@@ -4231,7 +4344,7 @@
     "stack": " 1 ",
     "id": " No ID"
   },
-  "530": {
+  "544": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_TopHat.PrimalItemSkin_TopHat'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/1/14/Top_Hat_Skin.png/35px-Top_Hat_Skin.png?version=35725696c37da7eb0780647a75c34ca0",
     "name": "Top Hat Skin",
@@ -4239,7 +4352,7 @@
     "stack": " 1 ",
     "id": " No ID"
   },
-  "531": {
+  "545": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemCostume_ReindeerStag.PrimalItemCostume_ReindeerStag'\"",
     "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/c/ce/Megaloceros_Reindeer_Costume.png/35px-Megaloceros_Reindeer_Costume.png?version=4e580339283ed3cbf22f27fb74d161b5",
     "name": "Megaloceros Reindeer Costume",
@@ -4247,12 +4360,92 @@
     "stack": " 1 ",
     "id": " No ID"
   },
-  "532": {
+  "546": {
     "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ProcoptodonSaddle.PrimalItemArmor_ProcoptodonSaddle'\"",
-    "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/8/89/Rex_Saddle.png/35px-Rex_Saddle.png?version=6cc5e934ca7cb418872195c1865051a8",
+    "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/a/ae/Procoptodon_Saddle.png/35px-Procoptodon_Saddle.png?version=7e184f8dcf850943443585fae69aa4ae",
     "name": "Procoptodon Saddle",
     "type": "Saddle",
     "stack": " 1 ",
+    "id": " No ID"
+  },
+  "547": {
+    "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_BeerJar.PrimalItemConsumable_BeerJar'\"",
+    "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/4/43/Beer_Jar.png/35px-Beer_Jar.png?version=a325176b48148f339873d5a948445552",
+    "name": "Beer Jar",
+    "type": "Consumable",
+    "stack": " 20 ",
+    "id": " No ID"
+  },
+  "548": {
+    "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_BeerJarAlt.PrimalItemConsumable_BeerJarAlt'\"",
+    "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/4/43/Beer_Jar.png/35px-Beer_Jar.png?version=a325176b48148f339873d5a948445552",
+    "name": "Beer Jar (alt)",
+    "type": "Consumable",
+    "stack": " 1 ",
+    "id": " No ID"
+  },
+  "549": {
+    "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_BeerBarrel.PrimalItemStructure_BeerBarrel'\"",
+    "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/b/bd/Beer_Barrel.png/35px-Beer_Barrel.png?version=a99493e33139c8faff27ac7e257f6a1a",
+    "name": "Beer Barrel",
+    "type": "Structure",
+    "stack": " 100 ",
+    "id": " No ID"
+  },
+  "550": {
+    "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Riot/PrimalItemArmor_RiotHelmet.PrimalItemArmor_RiotHelmet'\"",
+    "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/3/3a/Riot_Helmet.png/35px-Riot_Helmet.png?version=e2df45e056ec6ad90f6629eaaa21be48",
+    "name": "Riot Helmet",
+    "type": "Armor",
+    "stack": " 1 ",
+    "id": " No ID"
+  },
+  "551": {
+    "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Riot/PrimalItemArmor_RiotShirt.PrimalItemArmor_RiotShirt'\"",
+    "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/5/5a/Riot_Chestpiece.png/35px-Riot_Chestpiece.png?version=95c6a56f4025823c804b2981898e282e",
+    "name": "Riot Chestpiece",
+    "type": "Armor",
+    "stack": " 1 ",
+    "id": " No ID"
+  },
+  "552": {
+    "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Riot/PrimalItemArmor_RiotGloves.PrimalItemArmor_RiotGloves'\"",
+    "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/d/d1/Riot_Gauntlets.png/35px-Riot_Gauntlets.png?version=ff70bdd166bf8ba0ea198c515d2b8353",
+    "name": "Riot Gauntlets",
+    "type": "Armor",
+    "stack": " 1 ",
+    "id": " No ID"
+  },
+  "553": {
+    "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Riot/PrimalItemArmor_RiotPants.PrimalItemArmor_RiotPants'\"",
+    "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/a/ab/Riot_Leggings.png/35px-Riot_Leggings.png?version=d76493670df2abd9f4cdc2393914cf9f",
+    "name": "Riot Leggings",
+    "type": "Armor",
+    "stack": " 1 ",
+    "id": " No ID"
+  },
+  "554": {
+    "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Riot/PrimalItemArmor_RiotBoots.PrimalItemArmor_RiotBoots'\"",
+    "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/5/5a/Riot_Boots.png/35px-Riot_Boots.png?version=2d756f658bd885833c66636c238dc70c",
+    "name": "Riot Boots",
+    "type": "Armor",
+    "stack": " 1 ",
+    "id": " No ID"
+  },
+  "555": {
+    "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponElectricProd.PrimalItem_WeaponElectricProd'\"",
+    "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/4/48/Electric_Prod.png/35px-Electric_Prod.png?version=bbc364f18a56ad50e6a2e45641a1688a",
+    "name": "Electric Prod",
+    "type": "Weapon",
+    "stack": " 1 ",
+    "id": " No ID"
+  },
+  "556": {
+    "blueprint": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_GrapplingHook.PrimalItemAmmo_GrapplingHook'\"",
+    "icone": "http://hydra-media.cursecdn.com/ark.gamepedia.com/thumb/3/3d/Grappling_Hook.png/35px-Grappling_Hook.png?version=9bd6bb6d07c2a5833672709a8dc4cf64",
+    "name": "Grappling Hook",
+    "type": "Ammunition",
+    "stack": " 10 ",
     "id": " No ID"
   }
 }
